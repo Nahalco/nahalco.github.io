@@ -12,7 +12,8 @@ img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/
 encoding: utf-8
 
 author:
-  name: Nahalco
+  first_name: Nahal
+  last_name: Corporation
   avatar: static/assets/img/logo.png
 
 # other settings

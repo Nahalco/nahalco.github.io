@@ -11,6 +11,10 @@ img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/
 # Build settings
 encoding: utf-8
 
+authoe:
+  name: Nahalco
+  avatar: https://avatars0.githubusercontent.com/u/29888570?v=4&s=200
+
 # other settings
 highlighter: rouge
 markdown: kramdown

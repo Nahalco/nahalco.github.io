@@ -1399,9 +1399,9 @@ header .header-logo a {
 	display: block;
 	position: fixed;
 	right: 26px;
-	top: 30px;
-	height: 42px;
-	width: 42px;
+	top: 25px;
+	height: 31px;
+	width: 37px;
 	line-height: 42px;
 	font-family:Yekan, Tahoma, Geneva, sans-serif !important;
 	text-align:right;
@@ -1415,10 +1415,12 @@ header .header-logo a {
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	background-color: #ffffff;
+	border-radius: 2px;
 }
 
 #header-menu-trigger.opaque {
-	background-color: #000000;
+	background-color: #FFFFFF;
 }
 
 #header-menu-trigger.opaque .header-menu-text {
@@ -1447,13 +1449,14 @@ header .header-logo a {
 
 #header-menu-trigger .header-menu-icon {
 	display: block;
-	height: 2px;
-	width: 24px;
-	background-color: #FFFFFF;
+	height: 5px;
+	width: 25px;
+	background-color: #49a4b9;
 	position: absolute;
 	top: 50%;
-	right: 9px;
-	margin-top: -2px;
+	right: 6px;
+	margin-top: -3px;
+	border-radius: 2px;
 }
 
 #header-menu-trigger .header-menu-icon::before,
@@ -1464,6 +1467,7 @@ header .header-logo a {
 	background-color: inherit;
 	position: absolute;
 	left: 0;
+	border-radius: inherit;
 }
 
 #header-menu-trigger .header-menu-icon::before {
